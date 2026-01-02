@@ -2,12 +2,9 @@ package application;
 
 import model.entities.ConvertToCSV;
 
-import java.io.*;
-
-
 public class Main {
     public static void main(String[] args) {
-
+//        Locale.setDefault(Locale.US);
 
         ConvertToCSV file = new ConvertToCSV(
                 "/home/akio/repos/javaLarning/criandoCSV/src/source"

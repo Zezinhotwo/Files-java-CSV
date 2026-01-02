@@ -18,7 +18,7 @@ public class FileWrite {
     }
 
     public void writerFile() {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(out, true))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(out))) {
             for (String line : itens) {
                 bw.write(line);
                 bw.newLine();
